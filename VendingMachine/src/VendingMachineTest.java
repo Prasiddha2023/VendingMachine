@@ -238,7 +238,7 @@ public class VendingMachineTest {
     }
 
     @Test
-    public void testMakePurchase_exactBalance_succeeds() {
+    public void testMakePurchaseExactBalanceSucceeds() {
         // Arrange
         machine.addItem(chips, "A");
         machine.insertMoney(1.50);
